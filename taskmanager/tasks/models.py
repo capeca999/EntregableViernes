@@ -5,5 +5,5 @@ from django.db import models
 class Tasks(models.Model):
     title = models.CharField(max_length=50)
     description = models.TextField()
-    difficulty = models.CharField( max_length=15)
+    difficulty = models.CharField(max_length=15)
     
